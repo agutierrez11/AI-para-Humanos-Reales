@@ -1,7 +1,7 @@
 # 🧠 Glosario de AI — Para humanos reales
 
 > Conocimiento real, entre pares, sin vender nada.  
-> Para quienes entienden mejor los conceptos con ejemplos concretos.
+> Cada concepto viene con un ejercicio concreto de 5 minutos para probarlo tú mismo.
 
 ---
 
@@ -10,7 +10,7 @@
 Este repo nació de una conversación simple: hay demasiado ruido sobre AI y poca claridad.  
 No es un curso. No hay certificados. No hay nada que comprar.
 
-Es un glosario colaborativo, abierto, en español, donde cada concepto se explica como se lo explicarías a un amigo inteligente que no tiene idea del tema — con ejemplos reales y un ejercicio concreto para probarlo.
+Es un glosario colaborativo, abierto, en español, donde cada concepto se explica como se lo explicarías a un amigo inteligente — con una analogía y un ejercicio real para que lo veas funcionar, no solo leerlo.
 
 ---
 
@@ -62,20 +62,30 @@ Es un glosario colaborativo, abierto, en español, donde cada concepto se explic
 
 ---
 
-## 📖 Fuentes confiables
+## 🎯 ¿Por dónde empezar según cómo aprendes?
 
-Para no depender solo de lo que cada IA dice sobre sí misma:
+No todos aprendemos igual. Aquí van rutas reales según tu estilo:
 
-| Fuente | URL | Para qué sirve |
-|--------|-----|----------------|
-| **LMSYS Chatbot Arena** | [chat.lmsys.org](https://chat.lmsys.org) | Comparar modelos con votos humanos anónimos. |
-| **Hugging Face** | [huggingface.co](https://huggingface.co) | El hogar del open source y la comunidad técnica. |
-| **Anthropic Prompt Guide** | [docs.anthropic.com](https://docs.anthropic.com/en/docs/build-with-claude/prompt-engineering/overview) | La guía de prompting más práctica y bien documentada. |
-| **Prompt Engineering Guide** | [promptingguide.ai](https://www.promptingguide.ai) | Referencia técnica actualizada de todas las técnicas. |
-| **Google ML Crash Course** | [developers.google.com/ml](https://developers.google.com/machine-learning/crash-course) | Conceptos base con visualizaciones interactivas. |
-| **Simon Willison's Blog** | [simonwillison.net](https://simonwillison.net) | Observaciones empíricas y honestas, sin hype. |
-| **Andrej Karpathy (YouTube)** | [youtube.com/@AndrejKarpathy](https://www.youtube.com/@AndrejKarpathy) | Las mejores explicaciones técnicas accesibles que existen. |
-| **r/LocalLLaMA** | [reddit.com/r/LocalLLaMA](https://reddit.com/r/LocalLLaMA) | Comunidad honesta de usuarios reales. |
+### 👁️ Si aprendes viendo y leyendo primero
+
+1. **[Google ML Crash Course](https://developers.google.com/machine-learning/crash-course)** — cubre redes neuronales y clasificación con visualizaciones interactivas, sin requerir experiencia previa. Gratis, sin registro.
+2. **[Anthropic Prompt Engineering Guide](https://docs.anthropic.com/en/docs/build-with-claude/prompt-engineering/overview)** — uno de los recursos más claros de la industria. Los principios aplican a cualquier modelo, no solo Claude.
+
+### 🛠️ Si aprendes haciendo desde el primer día
+
+1. **[Codecademy AI](https://www.codecademy.com/catalog/subject/artificial-intelligence)** — cursos cortos (menos de 1 hora) sobre LLMs y AI generativa, pensados para principiantes.
+2. **[Kaggle](https://kaggle.com)** — ideal para practicar en comunidad con casos reales. Muy popular entre quienes aprenden data science y ML. Tiene medallas, rankings y notebooks listos para correr.
+
+### 🏆 Si aprendes compitiendo o en comunidad
+
+1. **[LMSYS Chatbot Arena](https://chat.lmsys.org)** — no es un curso, pero es la forma más honesta de entender las diferencias entre modelos: votas cuál respuesta fue mejor sin saber cuál modelo la dio.
+2. **[Reddit r/LocalLLaMA](https://reddit.com/r/LocalLLaMA)** — comunidad sin incentivos comerciales, gente que realmente prueba modelos y comparte resultados.
+
+---
+
+> 💡 **La gamificación de este glosario no está en plataformas externas.**  
+> Está en el bloque `🧪 Pruébalo` que tiene cada concepto: un ejercicio de 5 minutos que puedes hacer ahora mismo, con cualquier IA, sin instalar nada.  
+> **Lee el concepto → Haz el ejercicio → Sigue al siguiente.**
 
 ---
 
