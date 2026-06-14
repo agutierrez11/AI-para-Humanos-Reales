@@ -22,3 +22,12 @@ Es como un **cerebro muy inteligente que vive en una burbuja aislada**. Sabe muc
 3. Pregúntale: "¿Cuál es mi color favorito?".
 
 **¿Qué observar?** Verás que no tiene ni idea. Esto demuestra que cada conversación con un LLM "puro" es un borrón y cuenta nueva; vive atrapado en su burbuja de entrenamiento.
+
+> ⚠️ **Nota (2025):** ChatGPT, Claude y Gemini tienen funciones de "memoria", pero no son parte del LLM — son bases de datos externas que guardan resúmenes de tus sesiones anteriores y los inyectan en el prompt de la siguiente conversación. El modelo en sí sigue sin recordar nada. Prueba el ejercicio con la memoria **desactivada** para ver el comportamiento puro. Ver → [Memoria](../capa3-capacidades/memoria.md)
+
+---
+
+## 📎 Para profundizar
+- 🎥 [Andrej Karpathy — "Intro to Large Language Models"](https://www.youtube.com/watch?v=zjkBMFhNj_g) — la mejor explicación de 1 hora que existe, accesible sin experiencia técnica previa.
+- 🎥 [3Blue1Brown — "But what is a GPT?"](https://www.youtube.com/watch?v=wjZofJX0v4M) — animaciones visuales que explican cómo funciona el modelo por dentro.
+- 📝 [Hugging Face NLP Course — Chapter 1](https://huggingface.co/learn/nlp-course/chapter1/1) — curso gratuito e interactivo sobre modelos de lenguaje.
