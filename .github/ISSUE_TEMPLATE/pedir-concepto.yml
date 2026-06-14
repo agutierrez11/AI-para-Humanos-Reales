@@ -1,0 +1,52 @@
+name: 💡 Pedir un concepto
+description: ¿Hay un término de AI que quieres entender y no está aquí? Pídelo.
+title: "💡 Quiero entender: [NOMBRE DEL CONCEPTO]"
+labels: ["solicitud", "necesita-autor"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Gracias por contribuir. No necesitas saber programar ni tener experiencia técnica.
+        Solo cuéntanos qué quieres entender. Alguien de la comunidad lo escribirá.
+
+  - type: input
+    id: concepto
+    attributes:
+      label: ¿Qué concepto quieres entender?
+      description: El nombre del término o idea que escuchaste y no quedó claro.
+      placeholder: "Ej: Fine-tuning, Inferencia, Vector Database..."
+    validations:
+      required: true
+
+  - type: dropdown
+    id: capa
+    attributes:
+      label: ¿En qué capa crees que encaja?
+      description: Si no estás seguro, elige 'No sé — que alguien lo decida'.
+      options:
+        - "No sé — que alguien lo decida"
+        - "Capa 1 — El modelo (cómo funciona por dentro)"
+        - "Capa 2 — Hablarle (prompts e instrucciones)"
+        - "Capa 3 — Ampliar (conectar con herramientas)"
+        - "Capa 4 — Orquestar (combinar todo)"
+        - "Capa 5 — Evaluar (saber si funciona bien)"
+    validations:
+      required: true
+
+  - type: textarea
+    id: contexto
+    attributes:
+      label: ¿Dónde lo escuchaste o por qué lo necesitas?
+      description: Cualquier contexto ayuda a quien lo vaya a escribir.
+      placeholder: "Ej: Lo vi en un video de YouTube, o me lo mencionaron en el trabajo y no entendí qué era..."
+    validations:
+      required: false
+
+  - type: textarea
+    id: analogia
+    attributes:
+      label: ¿Tienes alguna intuición de qué podría ser? (opcional)
+      description: Si tienes alguna idea o analogía aunque sea vaga, escríbela.
+      placeholder: "Ej: Creo que es algo como... aunque no estoy seguro."
+    validations:
+      required: false

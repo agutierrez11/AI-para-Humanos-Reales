@@ -89,5 +89,20 @@ No todos aprendemos igual. Aquí van rutas reales según tu estilo:
 
 ---
 
-## 🤝 ¿Cómo contribuir?
+## 🙋 ¿Quieres participar?
+
+No necesitas saber programar ni usar git. Solo necesitas una cuenta gratuita en GitHub.
+
+| Si quieres... | Haz esto |
+|---------------|----------|
+| **Pedir un concepto** que no está aquí | [💡 Abrir una solicitud](../../issues/new?template=pedir-concepto.yml) |
+| **Proponer un concepto** que tú ya entiendes | [✍️ Proponer un concepto](../../issues/new?template=proponer-concepto.yml) |
+| **Contribuir como autor** (con git) | Lee [`CONTRIBUTING.md`](./CONTRIBUTING.md) |
+
+> Los formularios se abren directamente en tu navegador — es como llenar un formulario web normal.
+
+---
+
+## 🤝 ¿Cómo contribuir con git?
 Lee [`CONTRIBUTING.md`](./CONTRIBUTING.md).
+

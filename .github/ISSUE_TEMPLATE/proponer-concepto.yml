@@ -1,0 +1,80 @@
+name: ✍️ Proponer un concepto
+description: ¿Entiendes bien un concepto y quieres explicárselo a otros? Escríbelo aquí.
+title: "✍️ Propuesta: [NOMBRE DEL CONCEPTO]"
+labels: ["propuesta", "en-revisión"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Si entiendes algo bien, la mejor prueba es poder explicárselo a alguien que no sabe nada.
+        Completa los campos que puedas. No tienes que saber programar ni usar git.
+        Alguien del equipo revisará y lo subirá al repo si está bien.
+
+  - type: input
+    id: concepto
+    attributes:
+      label: Nombre del concepto
+      placeholder: "Ej: Fine-tuning"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: capa
+    attributes:
+      label: ¿En qué capa encaja?
+      options:
+        - "Capa 1 — El modelo (cómo funciona por dentro)"
+        - "Capa 2 — Hablarle (prompts e instrucciones)"
+        - "Capa 3 — Ampliar (conectar con herramientas)"
+        - "Capa 4 — Orquestar (combinar todo)"
+        - "Capa 5 — Evaluar (saber si funciona bien)"
+        - "No estoy seguro"
+    validations:
+      required: true
+
+  - type: input
+    id: en_una_oracion
+    attributes:
+      label: En una oración (máximo 20 palabras, sin tecnicismos)
+      description: La definición más simple posible. Como si se lo explicaras a un amigo.
+      placeholder: "Ej: Es el proceso de entrenar un modelo ya existente con tus propios datos para que se especialice."
+    validations:
+      required: true
+
+  - type: textarea
+    id: que_es
+    attributes:
+      label: ¿Qué es? (2-3 párrafos)
+      description: Explícalo con lenguaje sencillo. Sin jerga innecesaria.
+    validations:
+      required: true
+
+  - type: textarea
+    id: analogia
+    attributes:
+      label: Analogía
+      description: Compáralo con algo de la vida real que no tenga nada que ver con tecnología.
+      placeholder: "Ej: Es como enseñarle a un chef genérico a especializarse solo en sushi japonés..."
+    validations:
+      required: true
+
+  - type: textarea
+    id: pruebalo
+    attributes:
+      label: 🧪 Pruébalo — ejercicio de 5 minutos
+      description: Un ejercicio concreto que cualquier persona pueda hacer ahora mismo para entenderlo en la práctica.
+      placeholder: |
+        Paso 1: ...
+        Paso 2: ...
+        ¿Qué observar? ...
+    validations:
+      required: true
+
+  - type: input
+    id: fuente
+    attributes:
+      label: Fuente o recurso para profundizar (opcional)
+      description: Un link gratuito donde alguien pueda aprender más. Puede ser un video, artículo o documentación.
+      placeholder: "https://..."
+    validations:
+      required: false
